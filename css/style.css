@@ -9,9 +9,6 @@ body{
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
     padding: 1.8rem;
     border-bottom: 1px solid #efece8;
 }
@@ -24,6 +21,7 @@ body header nav ul img {
 
 body nav ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -34,3 +32,17 @@ body nav ul li a {
     margin: 0.5rem;
     font-weight: 500;
 }
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #efece8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #707060;
+
+}
+
+
+
+ 
+
