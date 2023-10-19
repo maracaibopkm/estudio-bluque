@@ -110,3 +110,9 @@ footer{
     grid-column: 4/7;
     grid-row: 3/6;
 }
+
+.diseñador {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
