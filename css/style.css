@@ -42,7 +42,16 @@ footer{
 
 }
 
+.img-carrousel {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+}
 
+section {
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
+}
 
  
 
