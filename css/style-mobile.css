@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 468px) {
+    body{
+        background-color: #efece8;
+    }
+
+
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-carrousel {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+}
+
+.carrousel {
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
+}
+
+.parrafo {
+    background-color: yellow;
+}
+
+.parrafo h2{
+    color: #707060;
+    text-align: center;
+}
+
+.parrafo p {
+    color: #707060;
+    text-align: justify;
+}

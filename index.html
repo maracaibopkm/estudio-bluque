@@ -5,10 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bluque Estudio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style-mobile.css">
 </head>
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/logo-oscuro.png" alt="Logo Bluque" width="30%">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Explorar
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="html/mobiliario.html">Mobiliario</a></li>
+                      <li><a class="dropdown-item" href="html/interiorismo.html">Interiorismo</a></li>
+                      <li><a class="dropdown-item" href="html/objetos.html">Objetos</a></li>
+                      <li><a class="dropdown-item" href="html/contacto.html">Contacto</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!-- 
     <nav>
         <ul>
             <li ><a href="html/interiorismo.html">Interiorismo</a></li>
@@ -17,7 +60,8 @@
             <li ><a href="html/objetos.html">Objetos</a></li>
             <li ><a href="html/contacto.html">Contacto</a></li>
         </ul>
-    </nav>
+          </nav>
+        -->
 </header>
 
 <section class="carrousel">
@@ -58,15 +102,31 @@
 </section>
 
 <section class="diseñador">
-    <div>
-        <img src="assets/Laure.jpg" alt="Diseñador sentado">
-        <p></p>
+    <div class="caja1">
+        <img  src="assets/Laure.jpg" alt="Diseñador sentado" width="78%">
+        <p>"Hay que huir de decorar un dormitorioponiendo elementos por poner, y buscar la limpieza y la simplicidad de este espacio tan importante de nuestras casa"</p>
     </div>
-    <div>
-        <img src="assets/laure-midiendo.jpg" alt="Diseñador midiendo">
-        <p></p>
+    <div class="caja2">
+        <img  src="assets/laure-midiendo.jpg" alt="Diseñador midiendo" width="102%">
+        <p>"La arquitectura tiene un motivo interior: La idea de crear un paraiso. Este es el unico proposito de nuestras casas.</p>
     </div>
 </section>
+
+<section class="lineas-diseño">
+    <img src="assets/komakai-logo.jpg" alt="Komakai" >
+    <img src="assets/estudio-bluque-logo.jpg" alt="Bluque estudio">
+    <img src="assets/fungui-logo.jpg" alt="Fungui mesa" >
+</section>
+
+<div class="kaizen">
+    <div>
+    <h4>K A I Z E N</h4>
+    </div>
+    <div>
+    <p>Una palabra que nos define y te contamos porqué. <br>
+        La palabra Kaizen proviene de dos términos japoneses: kai, que significa “mejora”, y zen, que significa “bueno” o “bienestar”. La combinación de estas palabras crea el concepto de mejora continua.</p>
+    </div>
+</div>
 
 <footer>
     <section>

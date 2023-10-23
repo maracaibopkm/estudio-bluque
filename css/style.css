@@ -8,9 +8,11 @@
    color oscuro #707060 
 */
 
+
 body{
     background-color: #efece8;
 }
+
 
 header {
     padding: 1.1rem;
@@ -113,6 +115,50 @@ footer{
 
 .diseñador {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2rem;
+    background-color: aqua;
+}
+
+.caja1 {
+    background-color: yellow;
+}
+
+.caja1 img{
+    width: 21.2rem;
+}
+
+.caja2 {
+    background-color: red;
+}
+
+.caja2 img {
+    width: 20rem;
+}
+
+
+
+.lineas-diseño {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.lineas-diseño img {
+    width: 30%;
+}
+
+.kaizen h4 {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kaizen p {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 }
