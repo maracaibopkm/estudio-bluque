@@ -10,11 +10,20 @@
     }
 
 
+};
 
 .nav-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.opening {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 1rem;
 }
 
 .img-carrousel {
@@ -24,12 +33,11 @@
 }
 
 .carrousel {
-    padding-top: 2rem;
     padding-bottom: 2 rem;
 }
 
 .parrafo {
-    background-color: yellow;
+    padding: 1rem;
 }
 
 .parrafo h2{
@@ -40,4 +48,114 @@
 .parrafo p {
     color: #707060;
     text-align: justify;
+}
+
+.grid-container{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 3px;
+}
+
+
+.first-item {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.second-item {
+    grid-column: 1/4;
+    grid-row: 3/6;
+}
+
+.third-item {
+    grid-column: 4/7;
+    grid-row: 1/6;
+}
+
+.forth-item {
+    grid-column: 4/7;
+    grid-row: 3/6;
+}
+
+.diseñador {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+.lineas-diseño {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.lineas-diseño img {
+    width: 30%;
+}
+
+.kaizen h4 {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.kaizen p {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    width: 36rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #707060;
+    padding-top: 1rem;
+
+}
+
+.carousel-inner {
+    width: 100%;
+    padding: 2rem;
+    border-bottom: 2px #707060 solid;
+}
+
+.mobiliario-titulo {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border: 1px solid #707060;
+}
+
+.mobiliario-texto {
+    color: #707060;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+
+/* ACA EMPIEZA LA VISTA DESKTOP */
+
+@media (min-width: 469px) {
+    
+    nav .dropdown-item a{
+        display: flex;
+        justify-content: space-around;
+        align-items:;
+    }
+
+    .opening {
+        color: #707060;
+    }
+
+
 }
