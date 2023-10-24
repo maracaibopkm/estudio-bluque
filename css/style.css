@@ -176,6 +176,8 @@ form {
     padding: 4rem;
 }
 
+
+
 /* ACA EMPIEZA LA VISTA DESKTOP */
 
 @media screen and (min-width: 469px) {
@@ -201,7 +203,8 @@ form {
     }
 
     .diseñador {
-        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
     }
 
     .caja1 img {
@@ -209,8 +212,14 @@ form {
     }
 
     .caja2 img {
-        width: 85%;
+        width: 94.3%;
     }
 
+    /* .whatsapp {
+        position: static;
+        width: 18rem;
+        display: flex;
+        justify-content: flex-end;
+    } */
 
 }
