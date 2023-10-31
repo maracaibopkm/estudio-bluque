@@ -109,4 +109,36 @@ footer {
   border-bottom: 2px #707060 solid;
 }
 
+body .interiorismo-titulo {
+  color: #707060;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border: 1px solid #707060;
+}
+body .interiorismo-texto {
+  color: #707060;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+
+form {
+  padding: 4rem;
+}
+
+body .mobiliario-titulo {
+  color: #707060;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border: 1px solid #707060;
+}
+body .mobiliario-texto {
+  color: #707060;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
