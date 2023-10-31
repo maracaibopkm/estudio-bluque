@@ -1,0 +1,62 @@
+
+/* ESTE CODIGO NO ESTOY SEGURA DE QUE SIRVA xD
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+
+form {
+    padding: 4rem;
+}
+
+
+
+/* ACA EMPIEZA LA VISTA DESKTOP */
+
+@media screen and (min-width: 469px) {
+    
+    nav .dropdown-item a{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+
+    .opening {
+        color: #707060;
+    }
+
+    .img-carrousel {
+        object-fit: scale-down;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .parrafo {
+        color: #707060;
+    }
+
+    .diseñador {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .caja1 img {
+        width: 100%;
+    }
+
+    .caja2 img {
+        width: 94.3%;
+    }
+
+    /* .whatsapp {
+        position: static;
+        width: 18rem;
+        display: flex;
+        justify-content: flex-end;
+    } */
+
+}
