@@ -116,6 +116,7 @@ body .interiorismo-titulo {
   padding-top: 2rem;
   padding-bottom: 1rem;
   border: 1px solid #707060;
+  margin-top: 3rem;
 }
 body .interiorismo-texto {
   color: #707060;
@@ -125,6 +126,11 @@ body .interiorismo-texto {
 
 form {
   padding: 4rem;
+  margin-top: 3rem;
+}
+
+header {
+  margin-bottom: 2rem;
 }
 
 body .mobiliario-titulo {
@@ -134,11 +140,16 @@ body .mobiliario-titulo {
   padding-top: 2rem;
   padding-bottom: 1rem;
   border: 1px solid #707060;
+  margin-top: 3rem;
 }
 body .mobiliario-texto {
   color: #707060;
   font-family: Arial, Helvetica, sans-serif;
   padding: 2rem;
+}
+
+body .mobiliario-titulo {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
