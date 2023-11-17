@@ -2,4 +2,7 @@ body {
     .mobiliario-titulo {
         margin-top: 3rem;
     }
+    .interiorismo-texto {
+        @extend .mobiliario-texto;
+    }
 }

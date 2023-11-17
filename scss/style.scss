@@ -1,6 +1,8 @@
 // import base 
 @import "./base/reset";
 
+@import "./layout/header";
+
 //import main
 @import "./layout/main";
 
@@ -18,3 +20,5 @@
 @import "./anexos/mobiliario";
 //objetos
 @import "./anexos/objetos";
+
+@import "./utilities/variables";

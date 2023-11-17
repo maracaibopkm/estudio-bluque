@@ -9,15 +9,18 @@ body {
   padding: 0.5rem;
 }
 
-main .opening {
+header h1 {
+  margin-top: 2rem;
   color: #707060;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   padding-top: 4rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
+
 main .carrousel {
-  padding-bottom: 2 rem;
+  padding-bottom: 1 rem;
 }
 main .carrousel .img-carrousel {
   object-fit: scale-down;
@@ -46,22 +49,35 @@ main .grid-container .first-item {
   grid-column: 1/4;
   grid-row: 1/4;
 }
+main .grid-container .first-item:hover {
+  opacity: 60%;
+}
 main .grid-container .second-item {
   grid-column: 1/4;
   grid-row: 3/6;
+}
+main .grid-container .second-item:hover {
+  opacity: 60%;
 }
 main .grid-container .third-item {
   grid-column: 4/7;
   grid-row: 1/6;
 }
+main .grid-container .third-item:hover {
+  opacity: 60%;
+}
 main .grid-container .forth-item {
   grid-column: 4/7;
   grid-row: 3/6;
+}
+main .grid-container .forth-item:hover {
+  opacity: 60%;
 }
 main .diseñador {
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  color: #707060;
 }
 main .diseñador .caja1 img {
   width: 8rem;
@@ -84,14 +100,31 @@ main .kaizen h4 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-main .kaizen h4 p {
+main p {
   display: flex;
-  color: #707060;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 2rem;
-  /* width: 36rem; */
   align-items: center;
+  color: #707060;
+}
+main .button {
+  background-color: #707060;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  font-weight: 600;
+}
+main .button:hover {
+  opacity: 80%;
+}
+main .button a {
+  text-decoration: none;
+  color: white;
 }
 
 footer {
@@ -118,12 +151,6 @@ body .interiorismo-titulo {
   border: 1px solid #707060;
   margin-top: 3rem;
 }
-body .interiorismo-texto {
-  color: #707060;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 2rem;
-}
-
 form {
   padding: 4rem;
   margin-top: 3rem;
@@ -142,10 +169,11 @@ body .mobiliario-titulo {
   border: 1px solid #707060;
   margin-top: 3rem;
 }
-body .mobiliario-texto {
+body .mobiliario-texto, body .interiorismo-texto {
   color: #707060;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 2rem;
+  padding: 3rem;
+  text-align: justify;
 }
 
 body .mobiliario-titulo {

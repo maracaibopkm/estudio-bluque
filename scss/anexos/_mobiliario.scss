@@ -1,10 +1,12 @@
+@import "../utilities/variables";
+
 header {
     margin-bottom: 2rem;
 }
 
 body {
     .mobiliario-titulo {
-        color: #707060;
+        color: $color-text;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         padding-top: 2rem;
@@ -13,8 +15,10 @@ body {
         margin-top: 3rem;
     }
     .mobiliario-texto {
-        color: #707060;
+        color: $color-text;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 2rem;
-    }
+        padding: 3rem;
+        text-align: justify;
+    }  
+    
 }

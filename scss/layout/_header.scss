@@ -1,0 +1,13 @@
+@import "../utilities/variables";
+
+header {
+    h1 {
+    margin-top: 2rem;
+    color: $color-text;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;    
+   }
+}  
